@@ -1,5 +1,6 @@
 import Header from "./components/Header";
 import styled from "styled-components";
+import Newsletter from "./components/Newsletter";
 
 const AppContainer = styled.div`
   position: relative;
@@ -7,12 +8,14 @@ const AppContainer = styled.div`
   height: 100%;
 
   background: #FFFFFF;
+  font-family: 'Montserrat';
 `;
 
 function App() {
   return (
     <AppContainer>
       <Header />
+      <Newsletter />
     </AppContainer>
   );
 }
