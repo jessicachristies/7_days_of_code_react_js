@@ -1,15 +1,25 @@
 import styled from "styled-components";
-import { Title } from "../../components/Title";
+import { Input } from "../Input";
+import { Button } from "../Button";
 
-const NewsletterContainer = styled.section`
-    
+const NewsletterField = styled.section`
+    width: 100%;
+    height: 6vh;
+    left: 30%;
+    top: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 `;
 
 function NewsletterAssignature() {
     return(
-        <NewsletterContainer>
-
-        </NewsletterContainer>
+        <NewsletterField>
+            <Input 
+                placeholder="Insira seu e-mail"
+            />
+            <Button>Assinar newsletter</Button>
+        </NewsletterField>
     );
 }
 

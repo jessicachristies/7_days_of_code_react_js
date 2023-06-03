@@ -8,7 +8,6 @@ const MenuSection = styled.section`
 `;
 
 const MenuItem = styled.a`
-    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
